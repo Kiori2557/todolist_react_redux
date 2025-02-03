@@ -10,7 +10,10 @@ function AddTodo() {
     setInput("");
   };
   return (
-    <form onSubmit={addTodoHandler} className=" space-x-3 mt-12">
+    <form
+      onSubmit={addTodoHandler}
+      className=" flex justify-center space-x-3 mt-12"
+    >
       <input
         type="text"
         className=" bg-gray-800 rounded border border-gray-700 focus:border-indigo-500  
